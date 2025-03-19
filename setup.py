@@ -1,10 +1,8 @@
-import setuptools 
+from setuptools import setup
 
-setuptools.setup(
-version='0.1.0',
-description='Simple package for testing purposes',
-author='Chris Taylor',
-author_email='CJTAYL2@gmail.com',
-packages=['proof_of_concept'],
-install_requires=['numpy'],
+setup(
+    name='my_package',
+    version='0.1',
+    packages=['my_package'],
+    install_requires=[],
 )
