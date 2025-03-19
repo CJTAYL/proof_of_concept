@@ -5,6 +5,6 @@ setuptools.setup(
   description = 'Simple package for testing purposes',
   author = 'Chris Taylor',
   author_email = 'CJTAYL2@gmail.com',
-  packages=['proof_of_concept'],
+  packages=['example1'],
   install_requires=['numpy'],
 )
